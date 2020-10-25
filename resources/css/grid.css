@@ -1,0 +1,19 @@
+.containerprice { 
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 20% 80%;
+    grid-gap: ;
+}
+
+.containerprice .plans {
+    display: grid;
+    grid-template-columns: minmax( 100px, 380px) minmax( 100px, 380px) minmax( 100px, 380px); 
+    grid-gap: 40px;
+    text-align: center;
+    align-items: center;
+}
+
+.containerprice .plans .plan1 {
+    display: grid;
+    grid-template-rows: 1fr 1fr ;
+}

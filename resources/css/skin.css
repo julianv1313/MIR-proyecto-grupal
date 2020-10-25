@@ -1,55 +1,86 @@
-.containerprice{
-  
 
+* {
+    padding: 0px ;
+    margin: 0px ;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";   
+   
+}
+
+.containerprice {
     width: 100%;
-    height: 850px;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-    position: relative;
-    border: solid ;
-
-}
-
-.plan1{
-    width: 380px;
-    height: 500px;
-    background-color:#343a40 ;
-    color: #fff ;
-    position: absolute;
-    line-height: ;
-    left: 430px;
-    bottom: 100px;
-
-}
-
-.plan2{
-    width: 380px;
-    height: 500px;
-    background-color:#343a40 ;
-    color: #fff ;
-    position: absolute;
-    line-height: ;
-    right: 860px ;
-    bottom: 100px;
+    max-width: 1820px;
+    height: 800px;
     
-
+    border: solid blue;
 }
 
-.plan3{
-    width: 380px;
+.containerprice > div {
+    display: block;
+    padding: 20px;
+    background-color: #fff ;
+    border: solid blue;
+}
+
+.containerprice .plans {
+    display: block;
+    border: yellow;
+    color: white;
+    background-color: #fff ;
+}
+
+.containerprice .plans .plan1 {
     height: 500px;
-    background-color:#343a40 ;
-    color: #fff ;
-    position: absolute;
-    line-height: ;
-    right: 430px;
-    bottom: 300px;
+    background-color: #343a40 ;
+    border-bottom-right-radius: 120px;
+    border-top-left-radius: 120px;
+    
+}
 
+.containerprice .plans .plan2 {
+    height: 500px;
+    background-color: #343a40 ;
+    border-bottom-right-radius: 120px;
+    border-top-left-radius: 120px;
+}
 
+.containerprice .plans .plan3 {
+    height: 500px;
+    background-color: #343a40 ;
+    border-bottom-right-radius: 120px;
+    border-top-left-radius: 120px;
 }
 
 .styleprice {
-    color: #fd7e14;
+    color: #fa573a;
+    font-size: 23px;
+}
+
+.containerprice .titleprice .titlep {
+    text-align: center;
+    position: relative;
+    top: 20%;
+    font-size: 30px;
+   
+}
+
+.styleplan {
+    color: ;
+    font-size: 30px;
+}
+
+.buybottom{
+    color: #fa573a;
+    border: 1px solid #fa573a;
+    padding: 14px 20px;
+    border-radius: 50px;
+    font-family: rb;
+}
+
+.buybottom2{
+    color: #fff;
+    border: 1px solid #fa573a;
+    background-color: #fa573a  ;
+    padding: 14px 20px;
+    border-radius: 50px;
+    font-family: rb;
 }
