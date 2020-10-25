@@ -11,7 +11,7 @@
     color: orangered;
     z-index: -5;
 }
-.text { 
+.comment__header { 
     height: 90px;
     padding-left: 15px;
     padding-right: 15px;
@@ -22,12 +22,12 @@
     letter-spacing: 7px;
     color: #151515;
 }
-.text h2 {
+.comment--h2 {
     margin: 0px;
 }
-.border {
+.comment__rhombus {
     position: relative;
-    top: -80px;
+    top: -70px;
     left: 47%;
     width: 80px;
     height: 80px;
@@ -35,7 +35,7 @@
     transform: rotate(45deg);
     z-index: -1;
 }
-.quote {
+.comment__quote {
     position: relative;
     left: 12%;
     width: 75%;
@@ -44,12 +44,12 @@
     color: #666666;
     line-height: 26px;
 }
-.quote p {
+.comment__p {
     padding: 20px 168px 0;
     margin-bottom: 16px;
     margin-top: 0px;
 }
-.start-quote {
+.comment__start-quote {
     font-family: 'Minotaur', sans-serif;
     font-size: 75px;
     font-weight: bolder;
@@ -57,7 +57,7 @@
     padding-top: 35px;
 }
 
-.name {
+.comment__name {
     color: #212529;
     font-weight: bold;
     font-size: 26px;
@@ -65,14 +65,14 @@
     margin-bottom: 8px;
 }
 
-.extra {
+.comment__extra {
     padding-left: 15px;
     padding-right: 15px;
     padding-top: 25px;
     margin: 0px;
 }
 
-.image {
+.comment__image {
     position: relative;
     left: 47%;
     height: 85px;
