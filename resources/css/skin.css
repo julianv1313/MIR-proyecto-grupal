@@ -4,9 +4,9 @@
     color: red;
 }
 @media (min-width: 600px) {
-    .titulo{
+    .title{
         font-weight: 700;
-        font-size: 60px;
-        color: blue;
+        font-size: 40px;
+        color: black;
     }
   }
