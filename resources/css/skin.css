@@ -10,15 +10,12 @@
     width: 100%;
     max-width: 1820px;
     height: 800px;
-    
-    border: solid blue;
 }
 
 .containerprice > div {
     display: block;
     padding: 20px;
     background-color: #fff ;
-    border: solid blue;
 }
 
 /*.containerprice .plans {
