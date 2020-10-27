@@ -21,14 +21,23 @@
     border: solid blue;
 }
 
-.containerprice .plans {
+/*.containerprice .plans {
     display: block;
     border: yellow;
     color: white;
-    background-color: #fff ;
+    background-color: #fff ; 
+}*/
+
+.containerprice .plans > div {
+    height: 500px;
+    background-color: #343a40 ;
+    border-bottom-right-radius: 120px;
+    border-top-left-radius: 120px;
+    display: block;
+    color: #fff;
 }
 
-.containerprice .plans .plan1 {
+/*.containerprice .plans .plan1 {
     height: 500px;
     background-color: #343a40 ;
     border-bottom-right-radius: 120px;
@@ -48,7 +57,7 @@
     background-color: #343a40 ;
     border-bottom-right-radius: 120px;
     border-top-left-radius: 120px;
-}
+}*/
 
 .styleprice {
     color: #fa573a;
