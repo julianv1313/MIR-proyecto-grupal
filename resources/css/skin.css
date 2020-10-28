@@ -80,6 +80,8 @@
     padding: 14px 20px;
     border-radius: 50px;
     font-family: rb;
+    text-decoration: none;
+    transition: all linear .5s ;
 }
 
 .buybottom2{
@@ -89,4 +91,14 @@
     padding: 14px 20px;
     border-radius: 50px;
     font-family: rb;
+    text-decoration: none;
+}
+
+.buybottom:hover{
+    color: #fff;
+    border: 1px solid #fa573a;
+    padding: 14px 20px;
+    border-radius: 50px;
+    font-family: rb;
+    background-color: #fa573a
 }
