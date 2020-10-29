@@ -1,0 +1,104 @@
+
+
+.cardModel{
+    margin: 0 auto;
+    max-width: 540px;
+    width:100%;
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position:relative;
+    margin-bottom: 20px;
+}
+
+.cardModel__img{
+    width:100%;
+}
+
+.cardModel__text{
+    display:flex;
+    flex-direction: column;
+    text-align: left;
+    
+}
+
+.cardModel__maintitle{
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 8px;
+    font-weight: bold;
+
+}
+
+.cardModel__subtitle{
+    color:#fa573a;
+    margin-top: 0%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.cardModel__paragraph{
+    color: #666;
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 0%;
+}
+
+.button{
+    border:none;
+    text-decoration: none;
+    margin-bottom: 15px;
+    color:#fa573a;
+}
+
+
+.button:hover i{
+    padding-left: 4px;
+    transition: .3s linear all;
+}
+
+.button__text{
+    font-size: 16px;
+    font-weight: bolder;
+    margin-right:2px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.socialNet{
+    width:40%;
+    display:flex;
+    justify-content:space-between;
+}
+
+
+.socialNet__like{
+    color:#666;
+    text-decoration: none;
+}
+.socialNet__like:hover{
+    color:#fa573a;
+    transition: .3s linear all;
+}
+
+.socialNet__comment{
+    color:#666;
+    text-decoration: none;
+}
+
+.socialNet__comment:hover{
+    color:#fa573a;
+    transition: .3s linear all;
+}
+
+.socialNet__arrow{
+    color:#666;
+    text-decoration: none;
+}
+
+.socialNet__arrow:hover{
+    color:#fa573a;
+    transition: .3s linear all;
+}
+
+
