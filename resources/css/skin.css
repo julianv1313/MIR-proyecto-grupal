@@ -18,21 +18,38 @@
     background-color: #fff ;
 }
 
-/*.containerprice .plans {
-    display: block;
-    border: yellow;
-    color: white;
-    background-color: #fff ; 
-}*/
-
-.containerprice .plans > div {
+.plancontent {
     height: 500px;
     background-color: #343a40 ;
     border-bottom-right-radius: 120px;
     border-top-left-radius: 120px;
     display: block;
     color: #fff;
+    position: relative;
 }
+
+/*.containerprice .plans > div {
+    height: 500px;
+    background-color: #343a40 ;
+    border-bottom-right-radius: 120px;
+    border-top-left-radius: 120px;
+    display: block;
+    color: #fff;
+
+}*/
+.plan1 {
+    position: relative;
+}
+.plan1::before {
+    content: "hola";
+    display: block;
+    height: 100%;
+    width: 100%;
+    background-color: chartreuse;
+    position: absolute;
+   
+}
+
 
 /*.containerprice .plans .plan1 {
     height: 500px;
@@ -102,3 +119,19 @@
     font-family: rb;
     background-color: #fa573a
 }
+
+/*.buybottom::before {
+    position: absolute;
+    content: '';
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%) rotate(45deg);
+    -ms-transform: translate(-50%, -50%) rotate(45deg);
+    transform: translate(-50%, -50%) rotate(45deg);
+    top: 50%;
+    width: 65px;
+    height: 65px;
+    background: none;
+    border: 6px solid #dbdbdb;
+    z-index: -1;
+}*/
+
