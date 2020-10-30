@@ -135,3 +135,13 @@
     z-index: -1;
 }*/
 
+.comment__rhombus {
+    position: relative;
+    top: -57px;
+    margin: 0 auto;
+    width: 55px;
+    height: 55px;
+    border: solid 5px lightgray;
+    transform: rotate(45deg);
+    z-index: -1;
+}
