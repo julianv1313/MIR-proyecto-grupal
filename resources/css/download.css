@@ -1,8 +1,3 @@
-*{
-    margin: 0%;
-    padding: 0%;
-}
-
 .download {
     position: relative;
     background-color: #fafafa;
@@ -28,10 +23,12 @@
     letter-spacing: 7px;
     color: #151515;
 }
-
 .download--h2 {
     margin: 0 auto;
+    margin: 0px;
     margin-bottom: 8px;
+    font-weight: bolder;
+    font-size: 38px;
 }
 .download__rhombus {
     position: relative;
@@ -45,7 +42,6 @@
 }
 .download__text{ 
     position: relative;
-    width: 100%;
     padding-top: 16px;
     padding-right: 15px;
     padding-left: 15px;
@@ -59,7 +55,7 @@
     color: orangered;
 }
 .download__text-p {
-    color: #151515 ;
+    color: #444444 ;
     padding-bottom: 10px;
     margin-bottom: 16px;
 }
@@ -71,8 +67,163 @@
     padding: 14px 20px;
     color: rgb(255, 255, 255);
     background-color: #fa573a;
-    border: solid 1px #fa573a;
+    border: solid 2px #fa573a;
     border-radius: 50px;
     text-decoration: none;
     font-weight: bolder;
+}
+
+.download__flex {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 15px;
+    margin: 0 auto;
+}
+.download__card {
+    text-align: center;
+}
+.download__card-left {
+    padding-top: 30px;
+    padding-bottom: 42px;
+    margin-bottom: 25px;
+    border: solid 3px #fa573a;
+
+}
+.download__card-right{
+    border: solid 3px #fa573a;
+    padding-top: 30px;
+    padding-bottom: 42px;
+    margin-bottom: 25px;
+}
+.download__text-button--mod {
+    color: #fa573a;
+    background-color: #fafafa;
+}
+.download__flex-circle {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #fa573a;
+    margin: 0  auto;
+}
+.download__flex-h3 {
+    margin-bottom: 8px;
+    padding-top: 14px;
+    padding-bottom: 13px;
+}
+.download__flex-p {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    margin-bottom: 16px;
+    color: #6a6a6a;
+}
+.download__card-left--mod {
+    border: solid 2px #6876ff;
+}
+.download__text-button--mod--blue {
+    border: solid 2px #6876ff;
+    color: #6876ff;
+}
+.download__flex-h3-blue {
+    color: #6876ff;
+}
+.download__flex-circle--blue {
+    background-color: #6876ff;
+}
+.download__card-right--lightblue {
+    border: solid 2px #1eafed;
+}
+.download__text-button--mod--lightblue {
+    border: solid 2px #1eafed;
+    color: #1eafed;
+}
+.download__flex-h3-lightblue {
+    color: #1eafed;
+}
+.download__flex-circle--lightblue {
+    background-color: #1eafed;
+}
+.download__card-right--pink {
+    border: solid 2px #ff467e;
+}
+.download__text-button--mod--pink {
+    border: solid 2px #ff467e;
+    color: #ff467e;
+}
+.download__flex-h3-pink {
+    color: #ff467e;
+}
+.download__flex-circle--pink {
+    background-color: #ff467e;
+}
+.fab {
+    position: relative;
+    top: 23px;
+    color: whitesmoke;
+    font-size: 36px;
+}
+.fas {
+    position: relative;
+    top: 23px;
+    color: whitesmoke;
+    font-size: 36px;
+}
+
+@media (min-width: 768px) {
+    .download__text-p {
+        padding-bottom: 30px;
+    }
+    .download__flex {
+        flex-flow: row wrap;
+        justify-content: space-around;
+    }
+    .download__card-left {
+     width: 326px;
+     height: 257px;
+    
+    }
+    .download__card-right{
+        position: relative;
+        top: 50px;
+        width: 326px;
+        height: 257px; 
+    }
+}
+@media (min-width: 992px) {
+    .download__header {
+        padding-bottom: 15px;
+    }
+    .download__text {
+        margin-left: 250px;
+    }
+    .download__text-padding {
+        width: 290px;
+    }
+    .download__flex {
+        margin-left: 175px;
+        justify-content: space-between;
+    }
+    .download__flex {
+        width: 580px;
+        position: relative;
+        top: -500px;
+        left: 150px;
+    }
+    .download__card-left {
+        width: 263px;
+        height: 282px;
+    }
+    .download__card-right {
+        width: 263px;
+        height: 282px;
+    }
+}
+@media (min-width: 1200px){
+    .download__card-left {
+        width: 270px;
+    }
+    .download__card-right {
+        width: 270px;
+    }
 }
