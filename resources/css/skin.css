@@ -212,3 +212,30 @@
     bottom: px; 
 
 }
+
+/* ultima prubea */
+
+.plans {
+    position: relative;
+}
+
+.plans .plan1 .background-hover1{
+    width: 200px ;
+    height: 200px;
+    background-color: #343a40;
+    position: absolute;
+    border-radius: 100%;
+    left: 40px;
+    top: -10px;
+    transition: all 1000ms;
+    
+    
+}
+
+.plans .plan1:hover .background-hover1{
+    width: 600px ;
+    height: 600px ;
+    right:  px;
+    bottom: px; 
+
+}
