@@ -10,6 +10,36 @@
     
 }
 
+.blogTitle{
+    margin:0 auto;
+    margin-bottom: 1.5em;
+    margin-top:1.5em;
+    padding: 0;
+    display:flex;
+    justify-content: center;
+}
+
+.blogTitle__text{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 38px;
+    color:#151515;
+    letter-spacing: 5px;
+
+}
+
+.blogTitle__text::after{
+    border: 6px solid #dbdbdb;
+    background: none;
+    content:"";
+    width:55px;
+    height:55px;
+    transform: rotate(45deg);
+    z-index: -1;
+    position:absolute;
+    left:47.5%;
+    top:6%;
+
+}
 .cardModel{
     margin: 0;
     padding: 0%;
@@ -173,6 +203,11 @@
 }
 
 @media(max-width:1181px){
+
+    .blogTitle__text::after{
+        left:47.1%;
+        transition: .10s linear all;
+    }
     .cardModel{
         max-width:450px;
     }
@@ -204,6 +239,11 @@
 }
 
 @media(max-width:975px){
+
+    .blogTitle__text::after{
+        left:46%;
+        transition: .10s linear all;
+    }
     .cardModel{
         max-width:330px;
     }
@@ -243,6 +283,11 @@
 }
 
 @media(max-width:751px){
+
+    .blogTitle__text::after{
+        left:44.5%;
+        transition: .10s linear all;
+    }
     .container{
         padding: 0;
         margin: 0;
@@ -292,6 +337,11 @@
 }
 
 @media(max-width:558px){
+
+    .blogTitle__text::after{
+        left:43.5%;
+        transition: .10s linear all;
+    }
     .container{
         padding: 0;
         margin: 0 auto;
