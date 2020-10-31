@@ -39,6 +39,7 @@
 }*/
 .plan1 {
     position: relative;
+    overflow: hidden;
 }
 .plan1::before {
     content: "hola";
@@ -89,8 +90,11 @@
 .styleplan {
     color: ;
     font-size: 30px;
+    z-index: 1 ;
 }
-
+.test{
+    z-index: 1;
+}
 .buybottom{
     color: #fa573a;
     border: 1px solid #fa573a;
@@ -149,3 +153,28 @@
   
     
 }
+
+.plans .plan1{
+    position: relative;
+}
+
+.plans .plan1 .plancontent .background-hover{
+    width: 200px ;
+    height: 200px;
+    background-color: red;
+    position: absolute;
+    border-radius: 100%;
+    right: -300px;
+    transition: all 300ms;
+    
+}
+
+.plans .plan1 .plancontent:hover .background-hover{
+    width: 700px ;
+    height: 700px ;
+    right: -170 px;
+    bottom: 170 px;
+
+}
+
+

@@ -19,6 +19,8 @@
     display: grid;
     grid-template-rows: 30% 40% 30%;
     align-items: center;
+    overflow: hidden;
+    position: relative;
 }       
 
 .containerprice .plan1 {
