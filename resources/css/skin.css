@@ -48,6 +48,7 @@
     width: 100%;
     background-color: chartreuse;
     position: absolute;
+
    
 }
 
@@ -138,6 +139,8 @@
     border: 6px solid #dbdbdb;
     z-index: -1;
 }*/
+
+/* inicio de cogido para rombo en titulo   */
 .titlep{
     position: relative;
 }
@@ -153,6 +156,10 @@
   
     
 }
+
+/* fin de cogido para rombo en titulo   */
+
+/*  incio cogido de prueba para efecto inferior en planes */
 
 .plans .plan1{
     position: relative;
@@ -174,7 +181,34 @@
     height: 700px ;
     right: -170 px;
     bottom: 170 px;
+    
 
 }
 
+/* fin cogido de prueba para efecto inferior en planes */
 
+
+.plans {
+    position: relative;
+}
+
+.plans .plan3 .background-hover1{
+    width: 200px ;
+    height: 200px;
+    background-color: #343a40;
+    position: absolute;
+    border-radius: 100%;
+    left: 40px;
+    top: -10px;
+    transition: all 1000ms;
+    
+    
+}
+
+.plans .plan3:hover .background-hover1{
+    width: 600px ;
+    height: 600px ;
+    right:  px;
+    bottom: px; 
+
+}

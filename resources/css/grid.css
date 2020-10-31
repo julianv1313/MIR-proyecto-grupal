@@ -3,6 +3,7 @@
     grid-template-columns: 100%;
     grid-template-rows: 20% 80%;
     justify-items: center;
+    overflow: hidden;
 }
 
 .containerprice .plans {
@@ -38,4 +39,12 @@
     text-align: center;
     justify-content: center;
     justify-items: center;
+}
+
+/* pruebas   */
+
+
+.plan3 {
+    overflow: hidden;
+    position: relative;
 }
