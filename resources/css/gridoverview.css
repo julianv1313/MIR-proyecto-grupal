@@ -35,18 +35,21 @@
 .container-overview .overview-nav .overview__item {
     display: grid;
     grid-template-columns: 30% 70%;
-    justify-items: center;   
+    justify-content: center;   
 }
 
-.overview__item .overview-item__imagen{
-
+.overview-nav .overview__item .overview-item__imagen{
+    display: flex;
+    align-items: center;
+    text-align: center;
+     
 }
 
 .container-overview .overview-nav .overview__item .overview-item__list{
     display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: 20% 65% 15%;
-    justify-items: center;   
+    grid-template-rows: 30% 55% 15%;
+    /*align-items: center;*/
+    grid-gap: 0px ;   
 }
 
 .overview-item__list .overview-item__list__title{
@@ -60,3 +63,4 @@
 .overview-item__list .overview-item__list__more-info{
     
 }
+

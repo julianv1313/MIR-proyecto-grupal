@@ -1,15 +1,3 @@
-/*.titulo{
-    font-weight: 700;
-    font-size: 20px;
-    color: red;
-}
-@media (min-width: 600px) {
-    .titulo{
-        font-weight: 700;
-        font-size: 60px;
-        color: blue;
-    }
-  }*/
 * {
     padding: 0rem ;
     margin: 0rem ;
@@ -21,14 +9,12 @@
     width: 100%;
     max-width: 1820px;
     height: 650px;
-    border: solid 2px blue;
   }
 
   .container-overview .overview__title{
     width: 100%;
     font-size: 28px;
     text-align: center;
-    border: solid 2px yellow;
   }
   
 
@@ -36,41 +22,93 @@
     width: 100%;
     max-width: 1300px;
     height: 300px;
-    border: solid 2px yellow ; 
-   
   }
 
   .container-overview .overview-nav .overview__item{
     width: 100%;
     max-width: 580px;
-    border: solid 2px red;
+    height: 280px;
   }
   
 
   .overview__item .overview-item__imagen{
     width: 100%;
-    border: solid 2px blue ;
   }
   
 
   .overview-item__list{
     width: 100%;
-    border: solid 2px blue ;
   }
   
 
   .overview-item__list .overview-item__list__title{
-    border: solid 2px ;
+    font-size: 25px;
+  }
+
+  .overview-item__list .overview-item__list__title::after{
+    border-bottom: solid 3px #fa573a ;
+    max-width: 50px ;
+    content: ""; 
+    display: block;
   }
   
 
-  ..overview-item__list .overview-item__list__description{
-    border: solid 2px ;
+  .overview-item__list .overview-item__list__description{
+    font-size: 19px;
+    line-height: 30px;
+    color: #6c757d;
   }
   
 
-  ..overview-item__list .overview-item__list__more-info{
+  .overview-item__list .overview-item__list__more-info .overview-item__list__more-info__button{
+    font-size: 20px;
+    color: #fa573a ;
+    text-decoration: none;
 
   }
 
+.icon{
+    font-size: 40px;
+    color: #fa573a;
+    text-align: center;
+    /*position: relative;*/
+    align-items: center;
+    justify-items: center;
+}
 
+.icon::before{
+ border: solid 2px #fa573a;
+ width: 110px ;
+ height: 110px;
+ background-color: #fff;
+ position: absolute;
+ border-radius: 100% ;
+ transition: all 1000ms;
+ transition: all linear 1s ; 
+ display: grid;
+ align-items: center;
+ justify-items: center;
+}
+
+.icon:hover{
+    color:  #fff;
+    border: solid 2px #fa573a;
+    width: 110px ;
+    height: 110px;
+    background-color: #fa573a;
+    position: absolute;
+    border-radius: 100% ;
+     transition: all 1000ms;
+    transition: all linear 1s ; 
+    /*display: grid;
+    align-items: center;
+    justify-items: center;*/
+}
+
+.overview-item__list__more-info__button{
+    position: relative;
+}
+.overview-item__list__more-info__button:hover{
+    color: #fff;
+    position: absolute;
+}
