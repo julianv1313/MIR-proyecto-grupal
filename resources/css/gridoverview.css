@@ -1,0 +1,45 @@
+.container-overview{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 35% 65%;
+    justify-items: center;
+}
+
+.container-overview .overview__title{
+
+}
+
+.container-overview .overview-nav{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-items: center;   
+}
+
+.container-overview .overview-nav .overview__item {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    justify-items: center;   
+}
+
+.overview__item .overview-item__imagen{
+
+}
+
+.container-overview .overview-nav .overview__item .overview-item__list{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 20% 65% 15%;
+    justify-items: center;   
+}
+
+.overview-item__list .overview-item__list__title{
+
+}
+
+.overview-item__list .overview-item__list__description{
+
+}
+
+.overview-item__list .overview-item__list__more-info{
+    
+}
