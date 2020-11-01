@@ -29,28 +29,22 @@
 .container-overview .overview-nav{
     display: grid;
     grid-template-columns: 50% 50%;
-    justify-items: center;   
+    justify-content: ;
+    
 }
 
 .container-overview .overview-nav .overview__item {
     display: grid;
-    grid-template-columns: 30% 70%;
-    justify-content: center;   
+    grid-template-columns: 30% 70%;   
 }
 
-.overview-nav .overview__item .overview-item__imagen{
-    display: flex;
-    align-items: center;
-    text-align: center;
-     
+.overview-nav .overview__item .overview-item__imagen{    
 }
 
 .container-overview .overview-nav .overview__item .overview-item__list{
     display: grid;
-    grid-template-rows: 30% 55% 15%;
-    /*align-items: center;*/
-    grid-gap: 0px ;   
-}
+    grid-template-rows: 20% 65% 15%;
+    }
 
 .overview-item__list .overview-item__list__title{
 
