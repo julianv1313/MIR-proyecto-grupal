@@ -15,6 +15,7 @@
     height: 340px;
     z-index: -1;
 }
+
 .container-background {
     
     background-image: url('banner.jpg');
@@ -39,4 +40,19 @@
     border-bottom-right-radius: 200px;
 
 }
+
+.banner-text h1 {
+    color: #FF4B2B;
+    font-size: 70px;
+    padding-top: 150px;
+    z-index: 1;
+    
+}
+
+@media (max-width: 426px)
+
+.container-background {
+    padding-left-right: 200px; 
+}
+
 
