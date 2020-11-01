@@ -26,6 +26,8 @@
 
   .container-overview .overview__title{
     width: 100%;
+    font-size: 28px;
+    text-align: center;
     border: solid 2px yellow;
   }
   

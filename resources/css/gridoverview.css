@@ -6,7 +6,24 @@
 }
 
 .container-overview .overview__title{
+    display: grid;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    position: relative;
+}
 
+.container-overview .overview__title::before {
+    content: " " ;
+    display: block ;
+    width: 3.125rem;
+    height: 3.125rem;
+    border: solid 0.375rem lightgray;
+    transform: rotate(45deg);
+    position: absolute;
+    align-items: center;
+    z-index: -1 ; 
 }
 
 .container-overview .overview-nav{
