@@ -31,4 +31,18 @@
 }
 
 
+@media (max-width: 720px) {
+    
+    .plan-nav__list{
+        width: 380px;
+    }
+    
+    .container-price .plan-nav{
+        display: flex;
+        flex-wrap: wrap;
+        grid-gap: 2rem;
+        justify-content: center;
 
+    }
+
+  }
